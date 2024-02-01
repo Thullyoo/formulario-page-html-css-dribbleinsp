@@ -1,0 +1,117 @@
+main{
+ background-image: url(../img/sunflowers-3292932_1920.jpg);
+ background-size: contain; /* Ajuste para 'cover' se preferir cobrir completamente */
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.form_container{
+ background-color: rgba(255, 255, 255, 0.9);
+ border-radius: 20px;
+ display: flex;
+ flex-direction: column;
+ padding: 40px;
+}
+
+.sign{
+ display: flex;
+ flex-direction: column;
+}
+
+.sign_text{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-bottom: 30px;
+}
+
+.sign_text h1{
+ font-weight: bold;
+ font-size: 4rem;
+}
+
+.sign_text span{
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+
+.sign_text span a, .password_text a{
+ color: #5189F8;
+ text-decoration: none;
+ transition: 0.3s;
+}
+
+.sign_text span a:hover, .password_text a:hover{
+ color: #1d49a0;
+}
+.sign_google{
+ margin-bottom: 30px;
+}
+
+.sign_google button {
+ cursor: pointer;
+ color: white;
+}
+
+.sign_google button{
+ background-color: #3F7BF0;
+ width: 100%;
+ border-radius: 10px;
+ border: 0;
+ padding: 10px 0px;
+ font-size: 1.2rem;
+ transition: 0.2s ease-in-out;
+}
+
+.sign_google button:hover{
+ color: rgb(183, 179, 183);;
+}
+
+.email_form{
+ gap: 20px;
+}
+
+.email_form label, .password_text label{
+ color: #919191;
+}
+
+.password_text{
+ display: flex;
+ justify-content: space-between;
+ margin: 10px 0px 0px 0px;
+}
+
+input{
+ margin-top: 10px;
+ width: 100%;
+ border: 2px solid transparent;
+ padding: 15px 5px;
+ border-radius: 10px;
+}
+
+input:focus{
+ border-color: #8DC8FF;
+ outline: none;
+}
+
+.submit_form button{
+ margin-top: 20px;
+ background-color: black;
+ color: white;
+ width: 40%;
+ height: 60px;
+ border: 0px;
+ font-size: 1.3rem;
+ font-weight: bold;
+ border-radius: 20px;
+ cursor: pointer;
+ transition: 0.2s ease-in-out;
+}
+
+.submit_form button:hover{
+ color: rgb(183, 179, 183);
+}
